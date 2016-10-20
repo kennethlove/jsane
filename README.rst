@@ -17,25 +17,6 @@ Three-line intro
 Motivation
 ----------
 
-Picture the scene. You're a jet-setting developer who is obsessed with going to
-the gym. One day, a world-class jewel thief kidnaps you and asks you to hack
-into the super-secure bank server in thirty seconds, while an ultramodel is
-performing oral sex on you. You hurriedly trace the protocol on the wire, only
-to discover, to your dismay, that it uses JSON. Nested JSON, with levels and
-levels of keys.
-
-It's hopeless! You'll never type all those brackets and quotation marks in time!
-Suddenly, a flash of a memory races through your mind, like some cliche from
-a badly-written README. You launch the shell and type two words::
-
-    import jsane
-
-The day is saved.
-
-
-Motivation (non-Hollywood version)
-----------------------------------
-
 Are you frustrated with having to traverse your nested JSON key by key?
 
 ::
@@ -105,7 +86,7 @@ You can also load an existing dictionary::
 If the dictionary contains any data types that aren't valid in JSON (like
 functions), it still should work, but you're on your own.
 
-Due to Python being a non-insane language, there's a limit to the amount of
+Due to Python being a sensible language, there's a limit to the amount of
 crap you can pull with it, so JSane actually returns a ``Traversable`` object on
 accesses::
 
